@@ -1,0 +1,17 @@
+#pragma once
+#ifndef ERRORS_H
+#define ERRORS_H
+
+#define ERROR_BASE 100
+
+#define SUCCES ( ERROR_BASE )
+#define ERROR_MEM_ALLOC ( ERROR_BASE + 1 )
+#define ERROR_FILE_NOT_EXIST ( ERROR_BASE + 2 )
+#define ERROR_MAX_WORKERS (ERROR_BASE + 3 )
+#define ERROR_KNOWLEDGE_BASE (ERROR_BASE + 4 )
+#define ERROR_SINGLETON (ERROR_BASE + 5 )
+#define ERROR_NULL_STRING (ERROR_BASE + 6)
+#define ERROR_LIST_HEAD ( ERROR_BASE + 7 )
+#define ERROR_DATA_BASE ( ERROR_BASE + 8 )
+
+#endif
